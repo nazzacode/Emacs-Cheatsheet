@@ -2,16 +2,18 @@
 :ID:       70c7a6cc-41a3-410e-9e55-19a81fd479e8
 :END:
 
-#+title: (Doom) Emacs Cheatsheet & Cookbook
+#+title:  Emacs Cheatsheet & Cookbook (doom)
 #+subtitle: A curated selection of doom Emacs key bindings that I actually use.
 #+options: toc:2
 #+filetags: :cheatsheat:
 
 #+begin_quote
-In a command user interface (CUI) such as Emacs, the quantity of useful key-bindings quickly outpaces human memory. This is one of the major disadvantages compared to a GUI or dropdown UI (think: Photoshop or old MS Office), where everything is visually discoverable by the user. Emacs does have great internal documentation (via commands such as ~M-x ...~ (list commands)), but generally fails to give the user any visual interface suggesting what commands are useful in the current setting. This is my attempt to provide such functionality.
+In a command user interface (CUI) such as Emacs, the quantity of useful key-bindings quickly outpaces human memory. This is one of the major disadvantages compared to a GUI or dropdown UI (think: Photoshop or old MS Office), where everything is visually discoverable by the user. Emacs does have great internal documentation (via commands such as ~M-x ...~ (list commands)), but generally fails to give the user any visual interface suggesting what commands are useful in the current environment. This is my attempt to provide such functionality.
+
+Note: many of the best terminal user interface (TUI) programs do this well.
 #+end_quote
 
-My workflow consists of finding myself in an environment where I want a specific set of complex functionalities that I don't know by heart (or have forgotten). For example, wanting to work with a [[id:721ba071-abaa-4fef-a17e-fe9b0ea093be][spreadsheet]] or [[id:13a5f9d3-1d44-4726-99dd-9a13d692b43c][jupyter console]]. I then bring up the specific section of the cheatsheet via [[https://github.com/org-roam/org-roam][org-roam]]'s  ~org-roam-node-find~ (~SPC n r f~). Et voila! you have a context specific user interface.
+My workflow consists of finding myself in an environment where I want a specific set of complex functionalities that I don't know by heart (or have forgotten). For example, wanting to work with a [[id:721ba071-abaa-4fef-a17e-fe9b0ea093be][spreadsheet]] or [[id:13a5f9d3-1d44-4726-99dd-9a13d692b43c][jupyter console]]. I then bring up the specific section of the cheatsheet via [[https://github.com/org-roam/org-roam][org-roam]]'s  ~org-roam-node-find~ (~SPC n r f~). Et voila! You have a context specific user interface.
 
 #+begin_quote
 HELP: If you know a way to always make this action always pop up in a side/pop-up buffer (for specific files) please reach out time.
@@ -19,7 +21,8 @@ HELP: If you know a way to always make this action always pop up in a side/pop-u
 # TODO org-roam ui graph
 # TODO future improvements section
 
-   * may keybindings can be converted from doom to vanilla emacs with ~SPC \alpha key~ \rightarrow ~C-\alpha key~
+   * may keybindings can be converted from doom to vanilla emacs with ~SPC key1 key2~ \rightarrow ~C-key1 key2~
+
 
 * Table of Contents :toc:
 :PROPERTIES:
