@@ -1,0 +1,97 @@
+:PROPERTIES:
+:ID:       7fcd5a5e-75da-4265-ba1a-6491d512da12
+:END:
+
+#+title: (doom) Emacs Cheatsheet & Cookbook
+#+subtitle: A curated selection of doom Emacs key bindings that I actually use.
+#+options: toc:2
+#+filetags: :cheatsheat:
+
+#+begin_quote
+In a command user interface (CUI) such as Emacs, the quantity of useful key-bindings quickly outpaces human memory. This is one of the major disadvantages compared to a GUI or dropdown UI (think Photoshop or old MS Office), where everything is visually discoverable by the user. Emacs does have great internal documentation (via commands such as ~M-x "..."~ (list commands)), however generally fails to give the user any visual interface suggesting what commands are useful in the current setting. This is my attempt to provide such functionality.
+#+end_quote
+
+My workflow consists of finding myself in an environment where I want a specific set of complex functionality that I don't know by heart (or have forgotten). For example, wanting to work with a [[id:721ba071-abaa-4fef-a17e-fe9b0ea093be][spreadsheet]] or [[id:13a5f9d3-1d44-4726-99dd-9a13d692b43c][jupyter console]]. I then bring up the specific section of the cheatsheet via [[https://github.com/org-roam/org-roam][org-roam]]'s  ~org-roam-node-find~ (~SPC n r f~). Et voila! you have a context specific user interface.
+
+#+begin_quote
+HELP: If you know a way to always make this action always pop up in a side/pop-up buffer (for specific files) please reach out time.
+#+end_quote
+# TODO org-roam ui graph
+# TODO future improvements section
+
+
+
+
+   * may keybindings can be converted from doom to vanilla emacs with ~SPC \alpha key~ \rightarrow ~C-\alpha key~
+
+* Table of Contents :toc:
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+
+- [[#update-org-mode][UPDATE Org Mode]]
+  - [[#tables][Tables]]
+- [[#system-state][System State]]
+- [[#treemacs][Treemacs]]
+- [[#pdf-tools][PDF-tools]]
+- [[#bookmarks][Bookmarks]]
+- [[#emacs-jupyter-console][emacs-jupyter (console)]]
+- [[#mark][Mark]]
+
+* UPDATE Org Mode
+:PROPERTIES:
+:ID:       cb237785-b6f2-4f53-863f-a2106f8dabe5
+:END:
+|         | *HEADINGS & NAVIGATION*                      |
+| C-c C-u | ~outline-up-heading~: jump to parent heading |
+
+** TODO Tables
+:PROPERTIES:
+:ID:       ed2b8962-66b7-487b-abd4-48901efb92a2
+:END:
+*** TODO Spreadsheet
+:PROPERTIES:
+:ID:       721ba071-abaa-4fef-a17e-fe9b0ea093be
+:END:
+* System State
+:PROPERTIES:
+:ID:       d5e875ff-f826-4719-812b-eefc501e86dc
+:END:
+| C-h l | list previous commands        |
+|       | ~describe personal keybindings~ |
+
+* Treemacs
+:PROPERTIES:
+:ID:       8962a804-714a-40c9-bdaa-63685d8768e6
+:END:
+| SPC o p     | toggle sidebar |
+| ?           | cheatsheet     |
+| right-click | gui menu       |
+* PDF-tools
+:PROPERTIES:
+:ID:       3ca90221-cc0c-428a-a3e8-815f40ca293b
+:END:
+| g      | reload file                          |
+| hjkl   | scroll                               |
+| C-j    | page down                            |
+| C-k    | page up                              |
+| M-s o  | list all lines (containing a phrase) |
+| f      | inc. search links/references         |
+| o      | display outline                      |
+| +/-    | zoom                                 |
+| H/W/P} | fit height/width/page                |
+| s b    | trim margins                         |
+| TODO   | annotations (vs org-noter)           |
+|--------+--------------------------------------|
+| z m    | midnight mode (match color scheme)   |
+| z p    | printed (highlight links)            |
+* TODO Bookmarks
+| SPC RET | jump to bookmark |
+|         |                  |
+|         |                  |
+* TODO emacs-jupyter (console)
+:PROPERTIES:
+:ID:       13a5f9d3-1d44-4726-99dd-9a13d692b43c
+:END:
+* DONE Mark
+*
