@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID:       7fcd5a5e-75da-4265-ba1a-6491d512da12
+:ID:  7fcd5a5e-75da-4265-ba1a-6491d512da12
 :END:
 
 #+title: (doom) Emacs Cheatsheet & Cookbook
